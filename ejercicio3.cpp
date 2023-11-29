@@ -1,5 +1,4 @@
 #include <iostream>
-#include <clocale> //Libreria que contiene la funcion de setLocale
 
 using namespace std;
 
@@ -11,7 +10,6 @@ void menu();
 int main()
 {
 
-    setlocale(LC_ALL, "spanish"); // componente para compilar las tildes en la terminal.
     menu();
     return 0;
 }
@@ -23,9 +21,9 @@ void menu()
     cout << "\n----- Bienvenido al programa que te brindara las probabilidades del siguiente ejercicio -----\n"
          << endl;
     cout << "Consideremos que el 40% de una fabrica proviene del T1, el 35% del turno T2 y el 25% del T3; y que los porcentajes de los articulos defectuosos son del 1%, 2% y 3%. Respectivamente, en cada turno, al seleccionar un articulo al azar de la produccion total: " << endl;
-    cout << "a. ¿Cual es la probabilidad de que resulte defectuoso?" << endl;
+    cout << "a. cual es la probabilidad de que resulte defectuoso?" << endl;
     cout << "b. Si el articulo resulta defectuoso, ¿Cual es la probabilidad de que haya sido producido en el turno T2?" << endl;
-    cout << "c. ¿Cual es la probabilidad de que haya sido producido en el turno T3\n"
+    cout << "c. cual es la probabilidad de que haya sido producido en el turno T3\n"
          << endl;
     do
     {
