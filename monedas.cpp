@@ -1,5 +1,4 @@
 #include <iostream>
-#include <locale.h> //Libreria que contiene la funcion setlocale.
 #include <string>   //Libreria que contiene la función para manipular cadenas.
 
 using namespace std;
@@ -12,7 +11,6 @@ void menu();            // Menu de opciones para el programa
 
 int main()
 {
-    setlocale(LC_ALL, "spanish"); // componente para compilar las tildes en la terminal.
 
     menu();
 
@@ -23,12 +21,12 @@ void menu()
 {
 
     int respuesta;
-    cout << "Una caja contiene tres monedas, dos de ellas normales (HT) y una amañada (HH). Una moneda se selecciona al azar y se lanza dos veces.Si H aparece en ambas ocasiones, ¿Cuál es la probabilidad de que la moneda seleccionada sea la amaniada?.";
+    cout << "Una caja contiene tres monedas, dos de ellas normales (HT) y una amañada (HH). Una moneda se selecciona al azar y se lanza dos veces.Si H aparece en ambas ocasiones, cual es la probabilidad de que la moneda seleccionada sea la amaniada?.";
     cout << "\n----- Bienvenido al programa que detectara la probabilidad de que una moneda sea amaniada -----\n" << endl;
 
     do
     {
-        cout << "Introduce el número de la opción de la cuál deseas conocer" << endl;
+        cout << "Introduce el numero de la opcion la cual deseas conocer" << endl;
         cout << "1. Mostrar las probabilidades. " << endl;
         cout << "2. Salir del programa" << endl;
         cout << "Opción: ";
